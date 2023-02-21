@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>HTML tags cheat sheet</title>
+    </head>
+    <body>
+        <h1 id="top-of-page">HTML Tags Cheat Sheet</h1>
+        <h2>Table of Contents</h2>
+        <ol>
+            <li><a href="#headings">Headings</a></li>
+            <li><a href="#lists">Lists</a></li>
+            <li><a href="#anchors">Anchors</a></li>
+            <li><a href="#textEmphasis">Text Emphasis</a></li>
+            <li><a href="#divAndSpan">Organising content with &lt;div&gt; and &lt;span&gt;</a></li>
+            <li><a href="#br">Breaking text using the &lt;br&gt; tag</a></li>
+        </ol>
+        <h2 id="headings">Headings</h2>
+        <p>
+            Headings from 'h1' to 'h6' identify blocks and sections. <br>
+            Every page must have one 'h1'. Located under &lt;body&gt; tags.
+        </p>
+        <h2 id="lists">Lists</h2>
+        <h3>Unordered list</h3>
+        <p>
+            Unordered lists are marked with bullet points and go in &lt;ul&gt; tags. Each list item goes into the &lt; li &gt; tags.
+        </p>
+        <h4>Types of lists:</h4>
+        <ul>
+            <li>Unordered lists</li>
+            <li>Ordered lists</li>
+        </ul>
+        <h3>Ordered lists</h3>
+        <p>
+            Ordered lists are numbered and go in &lt;ol&gt; tags. Each list item goes in an &lt;li&gt; tag.
+        </p>
+        <h4>Polya's Problem Solving Framework</h4>
+        <ol>
+            <li>Understand the problem</li>
+            <li>Come up with a plan</li>
+            <li>Carry out the plan</li>
+            <li>Go back and improve your solution</li>
+        </ol>
+        <h2 id="anchors">Anchors (i.e. links)</h2>
+        <p>
+            Anchor tags create links to other pages. The URL goes in the &lt;a href="link"&gt; attribute.
+        <a href="https://duckduckgo.com">
+            Go to DuckDuckGo to search for more information.
+        </a>
+        </p>
+        <p>
+            Setting 'target="blank"' will open the link in a new window. See
+            <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/a" target="_blank">
+                MDN
+            </a>
+            for more details.
+        </p>
+        <p>
+            Anchor tags can also create links to a new location on the same page. Instead of putting a URL in the "href" attribute, just use the "id" of the element you want to navigate to.
+            This allows you to
+            <a href="#top-of-page">
+                jump to the top of the page.
+            </a>
+        </p>
+        <h2 id="textEmphasis">Text Emphasis</h2>
+        <h3>Italic</h3>
+        <em>
+            The &lt;em&gt; element adds extra emphasis to the text within the opening and closing tags. This shows up as italic in most browsers.
+        </em>
+        <h3>Bold</h3>
+        <strong>
+            You can also use the &lt;strong&gt; element to emphasise text. This shows up as bold text in most browsers.
+        </strong>
+        <h2 id="divAndSpan">Organising content with &lt;div&gt; and &lt;span&gt;</h2>
+        <h3>&lt;div&gt;</h3>
+        <p>
+            The &lt;div&gt; element is a block element, so each &lt;div&gt; will show up on a new line.
+        </p>
+        <div>1st div</div>
+        <div>2nd div</div>
+        <div>3rd div</div>
+        <h3>&lt;span&gt;</h3>
+        <p>
+            The &lt;span&gt; element is an inline element, so there will be no line break between each &lt;span&gt;.
+        </p>
+        <span>1st span</span>
+        <span>2nd span</span>
+        <span>3rd span</span>
+        <h2 id="br">Breaking text using the &lt;br&gt; tag</h2>
+        <p>
+            Replace with Haiku line 1<br>
+            Replace with Haiku line 2<br>
+            Replace with Haiku line 3<br>
+        </p>
+
+    </body>
+</html>
